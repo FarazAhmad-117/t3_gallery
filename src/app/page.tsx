@@ -1,5 +1,7 @@
 import { db } from "~/server/db";
 
+export const runtime = "edge";
+
 const mockUrls = [
   "https://41ulc68tg2.ufs.sh/f/2i3w8zYcIk4q2gBDGFYcIk4qoUX9YPjm8Hly6QOarSAM7NdV",
   "https://41ulc68tg2.ufs.sh/f/2i3w8zYcIk4qcEqMi2lXv5kHjo82QTlJN6SMyOtC0Wp3wrbi",
