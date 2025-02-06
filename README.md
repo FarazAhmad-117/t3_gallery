@@ -6,7 +6,7 @@
 - [x] Scaffold basic ui with mock data
 - [x] Tiding up the build process
 - [x] Actually set up a database (w/ Neon PostgreSQL)
-- [ ] Attach Database to UI
+- [x] Attach Database to UI
 - [ ] Add Authentication (w/ Clerk)
 - [ ] Add image upload
 - [ ] Error management (w/ Sentry)
