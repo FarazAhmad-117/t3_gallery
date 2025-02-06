@@ -7,8 +7,9 @@
 - [x] Tiding up the build process
 - [x] Actually set up a database (w/ Neon PostgreSQL)
 - [x] Attach Database to UI
-- [ ] Add Authentication (w/ Clerk)
+- [x] Add Authentication (w/ Clerk)
 - [ ] Add image upload
+- [ ] "taint" (server-only)
 - [ ] Error management (w/ Sentry)
 - [ ] Routing image/page (parallel route)
 - [ ] Delete button (w/ Server Actions)
