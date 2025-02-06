@@ -8,8 +8,8 @@
 - [x] Actually set up a database (w/ Neon PostgreSQL)
 - [x] Attach Database to UI
 - [x] Add Authentication (w/ Clerk)
-- [ ] Add image upload
-- [ ] "taint" (server-only)
+- [x] Add image upload
+- [x] "taint" (server-only)
 - [ ] Error management (w/ Sentry)
 - [ ] Routing image/page (parallel route)
 - [ ] Delete button (w/ Server Actions)
