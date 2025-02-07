@@ -1,14 +1,15 @@
-export const dynamicParams = false;
+import FullPageImageView from "~/components/full-page-iage-view";
 
-export default async function PhotoPage({
+export default async function PhotoModal({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const id = (await params).id;
-  console.log(id);
-  if (id) {
-    return <p>Photo: {id}</p>;
+  const photoId = (await params).id;
+  if (photoId) {
+    const idAsNumber = Number(photoId);
+    if (isNaN(idAsNumber)) throw new Error("Invalid photo id: " + photoId);
+    return <FullPageImageView id={idAsNumber} />;
   }
-  return <div className="card">Photo</div>;
+  return <div>Picture not found</div>;
 }
